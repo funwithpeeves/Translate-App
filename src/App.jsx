@@ -11,6 +11,8 @@ function App() {
     (store) => store.languageReducer
   );
 
+  console.log(languages)
+
   const translateState = useSelector((store) => store.translateReducer);
 
   const [sourceLang, setSourceLang] = useState({

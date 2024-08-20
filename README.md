@@ -1,8 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have created my simple Translate App. There are 111 languages in this app. You can translate your texts in your native language to another languages or change languages and translate texts in another languages to your native language. 
 
-Currently, two official plugins are available:
+You may need, for example, translate a text one to another (they both may not your native language.)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+# Library:
+
+@reduxjs/toolkit
+axios
+react-redux
+react-select
+
+
+# API
+https://rapidapi.com/dickyagustin/api/text-translator2

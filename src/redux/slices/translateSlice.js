@@ -24,14 +24,14 @@ const translateSlice = createSlice({
         builder.addCase(translateText.fulfilled, (state, action) => {
             state.isLoading = false;
             state.error = null;
-            state.answer = action.payload.translateText;
+            state.answer = action.payload.translatedText;
         })
     },
 
     reducers: {
         setAnswer: (state, { payload }) => {
             console.log(payload);
-            state.answer = payload;
+            state.answer = action.payload;
         }
     }
 })
